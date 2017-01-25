@@ -1,0 +1,54 @@
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: myfirst 2s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 2s infinite;
+    animation-direction: alternate-reverse;
+    animation: infinite-spinning; 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    100%  {background: yellow; left: 50px; top: 0px;}
+  
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 50px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+
+</style>
+</head>
+<body>
+
+<p>Do the animation once, then do the animation backwards:</p>
+<div></div>
+<p><strong>Note:</strong> The animation-direction property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

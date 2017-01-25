@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WORLDAYS HOME</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+<style type="text/css">
+body {
+	background-image: url(images/cover7ab.jpg);
+	background-size: cover;
+}
+</style>
+<script src="http://use.edgefonts.net/courier-prime:n4,n7:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<h1>WORLDAYS</h1>
+<h2>working to save the world
+<br>
+technology
+</h2>
+<nav>
+ <a href="index.html" id="home">home</a> <a href="news.html" id="news">news</a> <a href="living.html" id="living">living</a> <a href="media.html" id="media">media</a> <a href="photos.html" id="photos">photos</a> <a href="tech.html" id="tech">tech</a> <a href="events.html" id="events">events</a> <a href="about.html" id="about">about</a> <a href="contact.html" id="contact">contact</a>
+</nav>
+<footer>©&nbsp;2017 by WORLDAYS</footer>
+<script type="text/javascript">
+// We're going to make a timer to show pictures and change it as the background image.
+
+
+	var myImage = document.getElementById("mainImage");
+
+	var imageArray = ["IMG_3330.JPG","IMG_3219.jpg","IMG_2810.jpg","IMG_2975.jpg","IMG_3161.jpg","IMG_3258.PNG"];
+	var imageIndex = 0;
+
+	function changeImage() {
+		myImage.setAttribute("src",imageArray[imageIndex]);
+		imageIndex++;
+		if (imageIndex >= imageArray.length) {
+			imageIndex = 0;
+		}
+	}
+// set interval in milliseconds
+setInterval(changeImage,5000)
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: 'Fredoka One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	background-image: url(animation/background-06.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	
+
+}
+#contactform {
+	background-color: rgba(241,231,231,0.75);
+	border: thick inset rgba(0,0,0,1.00);
+	width: 418px;
+	height: 400px;
+	position: absolute;
+	top: 190px;
+	left: 243px;
+	padding-bottom: 35px;
+}
+h1 {
+	font-size: 2em;
+	text-align: right;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 19px;
+	letter-spacing: 2px;
+}
+h2 {
+	text-align: right;
+	margin-top: 0px;
+	padding-top: 8px;
+	padding-right: 19px;
+	letter-spacing: 2px;
+}
+
+.mainImage {
+	position: absolute;
+	top: 285px;
+	left: 428px;
+	border-radius: 43px;
+	-webkit-box-shadow: 9px 0px 83px;
+	box-shadow: 9px 0px 83px;
+	opacity: 0.55;
+	text-align: right;
+}
+a {
+	color: rgba(139,139,139,1.00);
+	text-decoration: none;
+}
+nav {
+	position: absolute;
+	padding-right: 20px;
+	padding-left: 20px;
+	top: 145px;
+	color: rgba(179,179,179,1.00);
+	text-align: right;
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	margin-right: 11px;
+	margin-left: 5px;
+	right: -25px;
+}
+footer {
+	text-align: left;
+	top: 573px;
+	position: absolute;
+}
+#footerd {
+	text-decoration: none;
+}
+#home {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 5px 0;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+}
+#news {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 5px 0%;
+	background-repeat: no-repeat;
+}
+#living {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 15px 0%;
+	background-repeat: no-repeat;
+}
+#media {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 11px 0%;
+	background-repeat: no-repeat;
+}
+#photos {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 16px 0%;
+	background-repeat: no-repeat;
+}
+#tech {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 5px 0%;
+}
+#events {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 19px 0%;
+	background-repeat: no-repeat;
+}
+#about {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 5px 0%;
+	background-repeat: no-repeat;
+}
+#contact {
+	background-image: url(images/Layer_1_copy_7.png);
+	background-size: contain;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background-position: 21px 0%;
+	background-repeat: no-repeat;
+}
+#home:hover, #news:hover, #living:hover, #media:hover, #photos:hover, #tech:hover, #events:hover, #about:hover, #contact:hover {
+	color: rgba(255,255,255,1);
+	font-size: large ease;
+	background-position: 20%;
+	font-weight: bold ease-in-out;
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+#newsarticle {
+	background-color: rgba(0,0,0,0.48);
+	width: 700px;
+	height: 364px;
+	overflow: scroll;
+	margin-left: 82px;
+	margin-top: 78px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	text-align: justify;
+	left: auto;
+	padding-left: 21px;
+	padding-right: 19px;
+}
+p  {
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	color: rgba(255,255,255,1.00);	
+}
+#email {
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(255,255,255,1.00);
+}
+#contactform {
+	width: 187px;
+	height: 300px;
+	margin-left: 5px;
+	padding-left: 31px;
+	padding-top: 0px;
+	background-color: rgba(0,0,0,0.29);
+}
+#contacthead {
+	text-align: left;
+	color: rgba(255,255,255,1.00);
+}
+label {
+	color: rgba(255,255,255,1.00);
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+}
+#textfield {
+	-webkit-transition: all;
+	-o-transition: all;
+	transition: all;
+}
+#textfield:hover {
+	background-color: rgba(88,88,88,1);
+}
+#backgroundImage {
+	background-size: cover;
+}
+table   {
+	font-weight: 700;
+	color: rgba(255,255,255,1.00);
+	font-family: courier-prime;
+	font-style: normal;
+	font-size: small;
+	background-color: rgba(0,0,0,0.58);
+	position: absolute;
+	left: 181px;
+	top: 209px;
+	border-width: thick;
+	border-style: solid;
+	height: 269px;
+	text-align: right;
+}
+#video {
+	overflow-x: no-content;
+	overflow-y: auto;
+	margin-top: 84px;
+	margin-right: auto;
+	margin-bottom: auto;
+	width: 1092px;
+	padding-top: 0px;
+	padding-left: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	background-color: rgba(0,0,0,0.56);
+	top: 24px;
+	margin-left: auto;
+}
+iframe {
+	/* [disabled]padding-top: 2px; */
+	/* [disabled]padding-right: 2px; */
+	/* [disabled]padding-bottom: 2px; */
+	/* [disabled]padding-left: 2px; */
+}
+#videoheading {
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 700;
+	color: rgba(255,255,255,1.00);
+	font-size: x-large;
+}
+#water {
+}
+#container1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(animation/spring.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+#tree {
+	position: absolute;
+
+	background-image: url(animation/tree2.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	opacity: 1;
+	transition: opacity 2s;
+
+}
+#water {
+	position: absolute;
+	top: 700px;
+	background-image: url(animation/water.png);
+	background size: cover;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background-size: contain;
+}
+#leaf {
+	position: absolute;
+	top:411px;
+	left: 33%;
+	background-image: url(animation/leaf.png);
+	background-size: contain;
+	width: 54px;
+	height: 67px;
+	opacity: 1;
+	transition: opacity 2s;
+	animation: spin 2s infinite;
+	
+	@-webkit-keyframes spin {
+		0%  {transform: rotate (30deg);}
+		50% {transform: rotate (-30deg);}
+		100% {transform: rotate (-30deg);}
+	}
+	
+		@keyframes spin {
+	0%  {transform: rotate (30deg);}
+		50% {transform: rotate (-30deg);}
+		100% {transform: rotate (-30deg);}
+	}
+	
+	
+
+.slideshow-container {
+	width: 630px;
+	height: 500px;
+	position: static;
+	background-color: rgba(148,11,13,1.00);
+	z-index: 2;
+}
+#slides {
+	background-color: rgba(0,0,0,0.48);
+	width: 700px;
+	height: 364px;
+	margin-left: 82px;
+	margin-top: 78px;
+	left: auto;
+	padding-left: 21px;
+	padding-right: 19px;
+}
+.text {
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	font-size: x-small;
+}
+#heading2 {
+	color: rgba(245,245,245,1.00);
+	margin-left: 0px;
+}
+#newsarticle {
+	color: rgba(255,255,255,1.00);
+	left: 10px;
+	margin-left: 253px;
+}
+#headd {
+	color: rgba(236,236,236,1.00);
+	background-color: rgba(255,255,255,1.00);
+}
+.bigger {
+	font-size: xx-large;
+}
+#tech {
+}
+#techt {
+}
+#techt {
+	background-color: rgba(212,55,57,1.00);
+}
