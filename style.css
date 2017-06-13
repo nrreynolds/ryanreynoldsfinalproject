@@ -288,10 +288,7 @@ table   {
 	margin-left: auto;
 }
 iframe {
-	/* [disabled]padding-top: 2px; */
-	/* [disabled]padding-right: 2px; */
-	/* [disabled]padding-bottom: 2px; */
-	/* [disabled]padding-left: 2px; */
+	/* padding didnt work so i couldnt use it */
 }
 #videoheading {
 	text-align: right;
@@ -303,8 +300,6 @@ iframe {
 	font-weight: 700;
 	color: rgba(255,255,255,1.00);
 	font-size: x-large;
-}
-#water {
 }
 #container1 {
 	position: absolute;
@@ -402,10 +397,7 @@ iframe {
 .bigger {
 	font-size: xx-large;
 }
-#tech {
-}
-#techt {
-}
+
 #techt {
 	background-color: rgba(212,55,57,1.00);
 }
